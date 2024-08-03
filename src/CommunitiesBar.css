@@ -1,0 +1,77 @@
+.communities-bar {
+  padding: 1rem;
+  padding-top: 1rem; 
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  height: 100vh; 
+  overflow-y: auto;
+}
+
+.communities-bar h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.communities-bar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.communities-bar li {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.communities-bar li:hover {
+  background-color: #f0f0f0;
+}
+
+.community-bar-create-button,
+.community-bar-toggle-button {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #61dafb;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 1rem auto; 
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.community-bar-create-button:hover,
+.community-bar-toggle-button:hover {
+  background-color: #21a1f1;
+}
+
+.joinable-communities-list {
+  margin-top: 1rem;
+  padding: 0;
+  list-style-type: none;
+}
+
+.joinable-community-item {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.joinable-community-item:hover {
+  background-color: #f0f0f0;
+}

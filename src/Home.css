@@ -1,0 +1,18 @@
+.content-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  padding-top: 60px; 
+}
+
+.communities-bar {
+  flex: 0 0 250px; 
+  overflow-y: auto;
+}
+
+.main-content {
+  flex: 1;
+  padding: 1rem;
+  padding-top: 0rem;
+  overflow-y: auto; 
+}

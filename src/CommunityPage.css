@@ -1,0 +1,50 @@
+
+.community-page {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .community-header {
+    margin-bottom: 1.5rem;
+  }
+  
+  .community-title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .community-description {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .community-actions {
+    margin-bottom: 1.5rem;
+  }
+  
+  .community-action-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #61dafb;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-right: 0.5rem;
+  }
+  
+  .community-action-button:hover {
+    background-color: #21a1f1;
+  }
+  
+  .delete-button {
+    background-color: red;
+  }
+  
+  .delete-button:hover {
+    background-color: darkred;
+  }

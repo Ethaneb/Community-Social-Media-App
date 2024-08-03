@@ -1,0 +1,79 @@
+.post-feed-container {
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.post-feed-posts {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+  
+.post-feed-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+.post-feed-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.post-feed-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-feed-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.post-feed-item-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.post-feed-item-content {
+    font-size: 1rem;
+    color: #666;
+}
+
+.post-feed-item-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.post-feed-item-footer .post-feed-item-author {
+    font-size: 0.9rem;
+    color: #999;
+}
+
+.post-feed-item-footer .post-feed-item-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.post-feed-item-footer .post-feed-item-actions button {
+    padding: 0.5rem 1rem;
+    background-color: #61dafb;
+    border: none;
+    color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.post-feed-item-footer .post-feed-item-actions button:hover {
+    background-color: #21a1f1;
+}
