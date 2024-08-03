@@ -2,6 +2,10 @@
 
 Follow these steps to set up and run the project:
 
+0. **Make sure you have node.js installed**
+
+
+
 1. **Navigate to the client directory:**
     ```sh
     cd client
