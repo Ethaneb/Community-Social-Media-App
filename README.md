@@ -1,14 +1,14 @@
 # Introduction
 This is a social media website I wrote for my advanced web development final. 
-- It uses Firebase for user authentication, database management and storage.
 - I used ReactJS for the front end.
+- It uses Firebase for user authentication, database management and storage.
 
 # Installation Instructions
 
 Follow these steps to set up and run the project:
 
 
-**Make sure you have node.js installed**
+Note: **Make sure you have node.js installed**
 
 
 1. **Navigate to the client directory:**
